@@ -864,9 +864,16 @@ color: #FFFFFF;
     .wave1{
         position: absolute;
         width: 10em;
-        height: 4%;
+        /* height: 4%; */
         bottom: 15%;
         right: -16%;
+    }
+    .child_image .child{
+        height: 80px;
+        width: 6em;
+    }
+    .child_image {
+        height: 75px;
     }
     .elevations{
         position: relative;
