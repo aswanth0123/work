@@ -21,3 +21,32 @@ function scrollImages() {
 }
 
 scrollImages();
+
+let add = document.querySelector(".add_opt");
+
+// Initially hide the div
+add.style.display = "none";
+
+setTimeout(() => {
+    document.querySelector(".main").style.opacity = 0.2;
+    
+    add.style.display = "flex"; 
+    add.style.opacity = "0";
+    add.style.transform = "scale(0.8)"; 
+    setTimeout(() => {
+        add.style.opacity = "1"; 
+        add.style.transform = "scale(1)"; 
+    }, 50);
+}, 1000);
+
+function close_add() {
+    let add = document.querySelector(".add_opt");
+    add.style.opacity = "0";
+    add.style.transform = "scale(0.8)"; 
+
+    document.querySelector(".main").style.opacity = 1;
+
+    setTimeout(() => {
+        add.style.display = "none";
+    }, 500);
+}
