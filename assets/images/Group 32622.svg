@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="Group_32622" data-name="Group 32622" transform="translate(-1367 -9808)">
+    <g id="Icon_Instagram" data-name="Icon / Instagram" transform="translate(1383 9824)">
+      <path id="Vector" d="M22.471,3.243H10.489A7.489,7.489,0,0,0,3,10.732V22.714A7.489,7.489,0,0,0,10.489,30.2H22.471a7.489,7.489,0,0,0,7.489-7.489V10.732A7.489,7.489,0,0,0,22.471,3.243Zm4.868,19.471a4.883,4.883,0,0,1-4.868,4.868H10.489a4.883,4.883,0,0,1-4.868-4.868V10.732a4.883,4.883,0,0,1,4.868-4.868H22.471a4.883,4.883,0,0,1,4.868,4.868ZM23.595,11.106a1.5,1.5,0,1,0-1.5-1.5A1.5,1.5,0,0,0,23.595,11.106ZM16.48,9.983a6.725,6.725,0,1,0,4.77,1.97A6.74,6.74,0,0,0,16.48,9.983Zm-4.119,6.74A4.119,4.119,0,1,0,16.48,12.6,4.119,4.119,0,0,0,12.361,16.723Z" transform="translate(-3 -3.243)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+    <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(1367 9808)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="29" cy="29" r="29" stroke="none"/>
+      <circle cx="29" cy="29" r="28.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.services{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #000000;
+}
+.logo{
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    width: 100px;
+}
+
+.threedots{
+    border: 2px solid gray;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    padding: 12px;
+    background: none;
+    cursor: pointer;
+}
+.line{
+    width: 25px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 3px;
+}
+.navmenu{
+    width: 40%;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.navmenus{
+    background: none;
+    outline: none;
+    border: none;
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+    font-weight: 600;
+    color: #FFC930;
+}
+.navmenus a, .navmenus a:visited {
+    text-decoration: none;
+    color: #FFC930;
+}
+.twolines{
+    border: 2px solid gray;
+    padding: 15px;
+    border-radius: 42px;
+    background: none;
+    cursor: pointer;
+}
+.tline{
+    width: 25px;
+    border-bottom: 2px solid gray;  
+}
+.tlf{
+    transform: rotate(45deg);
+}
+.tlr{
+    transform: rotate(-45deg);
+}
+.navSection{
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background-color: #fff;
+    bottom: 0%; 
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.5s ease-in-out;
+} 
+.sideman{
+    position: absolute;
+    right: -11.2%;
+    height: 200px;
+}
+.navList{
+    width: 26%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.navLog{
+    object-fit: contain;
+    width: 25px;
+}
+.navHead{
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.navLists{
+    list-style-type: none;
+    display: contents;
+    font-size: 0.7em;
+}
+.navLists li {
+    transition: font-weight 0.3s ease; 
+}
+.navLists li:hover{
+    font-weight: 600;
+    cursor: pointer;
+}
+.navfoot{
+    display: block;
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    bottom: 5%;
+    right: 5%;
+    list-style-type: none;
+}
+.navfoot li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.navfoot li p{
+    margin-bottom: 0;
+    color: white;
+    font-weight: 300;
+}
+.navflogo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 10px;  
+}
+.pin{
+    background: #EC6754 0% 0% no-repeat padding-box;
+}
+.call{
+    background: #4C7852 0% 0% no-repeat padding-box;
+}
+.mail{
+    background: #613B2B 0% 0% no-repeat padding-box;
+}
