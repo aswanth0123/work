@@ -12,13 +12,23 @@
         <div class="container1">
             <div class="top">
                 <div class="logo">
-                <img src="./assets/images/Asset 2@4x.png" alt="">
+                    <a href="./index.html"><img src="./assets/images/Asset 2@4x.png" alt="" class="logo" title="Homepage"></a>
             </div>
-                <button>
-                    <div style="width: 50%; height: 3px; background-color: #fff; "></div>
-                    <div style="width: 50%; height: 3px; background-color: #fff;"></div>
-                    <div  style="width: 50%; height: 3px; background-color: #fff;"></div>
+            <button id="threedots" onclick="displayNav()">
+                <div style="width: 50%; height: 3px; background-color: #fff; "></div>
+                <div style="width: 50%; height: 3px; background-color: #fff;"></div>
+                <div  style="width: 50%; height: 3px; background-color: #fff;"></div>
+            </button>
+            
+            <div class="navmenu" id="twolines">
+                <button class="navmenus" ><a href="./services.html">SERVICES</a></button>
+                <button class="navmenus"><a href="./PAGE5.html">WORKS</a></button>
+                <button class="navmenus"><a href="./PAGE3.html" >ABOUT US</a></button>
+                <button class="navmenus"><a href="./contact.html">CONTACT US</a></button>
+                <button class="twolines" id="twoline" onclick="removeNav()" style="border: 2px solid gray;">
+                    X
                 </button>
+            </div>
             </div>
             <div class="content">
                 <h6>WEB DESIGNING & DEVELOPMENT</h6>
@@ -243,5 +253,16 @@
             </div>
         </div>
     </div>
+    <script>
+        function displayNav() {
+            document.getElementById('threedots').style.display = 'none';
+            document.getElementById('twolines').style.display = "flex";
+        }
+    
+        function removeNav() {
+            document.getElementById('threedots').style.display = 'flex';
+            document.getElementById('twolines').style.display = "none";
+        }
+    </script>
 </body>
 </html>

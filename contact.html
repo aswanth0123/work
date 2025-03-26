@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="./index.html"><img src="./assets/images/Asset 2@4x@2x.png" alt="" title="Homepage"></a>
+            </div>
+            <div class="menu-btn" id="threedots" onclick="displayNav()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="navmenu" id="twolines" >
+                <button class="navmenus" ><a href="./services.html">SERVICES</a></button>
+                <button class="navmenus"><a href="./PAGE5.html">WORKS</a></button>
+                <button class="navmenus"><a href="./PAGE3.html">ABOUT US</a></button>
+                <button class="navmenus"><a href="" style=" color:#cfc8b4">CONTACT US</a></button>
+                <button class="twolines" id="twoline" onclick="removeNav()" style="border: 2px solid gray; color:#adacaa">
+                    X
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h4>let’s connect!</h4>
+            <h1>Let’s Bring Your Vision To Life!</h1>
+            <p>We’re here to innovate, create, and elevate your brand. Whether you have a project in mind or need expert
+                marketing solutions, let’s connect!</p>
+        </div>
+        <div class="contact">
+            <div class="circle"><img src="./assets/images/Pin.png" alt="" id="img1"></div>
+            <p>Banglore</p>
+            <div class="circle1"><img src="./assets/images/Group 34176.png" alt="" id="img2"></div>
+            <p>+91 123 456 7890</p>
+            <div class="circle2"><img src="./assets/images/Path 32373.png" alt="" id="img3"></div>
+            <p>demo@demomail.com</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="innerbox">
+            <h1>Send Us a Message</h1>
+            <p>We’d love to hear from you! Fill out the form below, and we’ll get back to you soon..</p>
+            <div class="data">
+                <h3>Hello My name is</h3>
+                <div></div>
+            </div>
+            <div class="data">
+                <h3>I’am from</h3>
+                <div style=" width: 70%;"></div>
+            </div>
+            <div class="data">
+                <h3>My email address is</h3>
+                <div style=" width: 44%;"></div>
+            </div>
+            <div class="data">
+                <h3>And my message is</h3>
+                <div style=" width: 45%;"></div>
+            </div>
+            <div class="data">
+                <div style=" width: 96%; margin-top: 20px;"></div>
+            </div>
+            <button>SUBMIT</button>
+        </div>
+    </div>
+    <div class="white"></div>
+    <div class="footer" >
+        <div class="left">
+            <img src="./assets/images/Group 34188.png" alt="" id="img4">
+        </div>
+        <div class="right-content">
+            <div class="center">
+                <div class="centerimg">
+                    <img src="./assets/images/Asset 2@4x.png" alt="" id="img5">
+                </div>
+                <div class="mail">
+                    <h6>SUBSCRIBE</h6>
+                    <input type="text" placeholder="Email Address" disabled>
+                    <p>Stay up to date on the latest features and <br> releases by joining our newsletter.</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="b1">
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT US</li>
+                        <li>SERVICES</li>
+                        <li>WORK</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </div>
+                <div class="b2">
+                    <p>+91 7907009040</p>
+                    <p>delvindannyd3@gmail.com</p>
+                    <h4>CONNECT</h4>
+                    <img src="./assets/images/Group 32623.png" alt="" class="social">
+                    <img src="./assets/images/Group 32622.png" alt="" class="social">
+                    <img src="./assets/images/Group 32621.png" alt="" class="social">
+                    <img src="./assets/images/Group 32620.png" alt="" class="social">
+                    <img src="./assets/images/Group 32619.png" alt="" class="social">
+                    <img src="./assets/images/Group 32618.png" alt="" class="social">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <hr> -->
+    <div class="last">
+        <p>©2025 Ad-Troiz, All Rights Reserved</p>
+        <p>Terms & Conditions </p>
+        <p>Privacy Policy</p>
+    </div>
+    <script>
+        function displayNav() {
+            document.getElementById('threedots').style.display = 'none';
+            document.getElementById('twolines').style.display = "flex";
+        }
+        
+        function removeNav() {
+            document.getElementById('threedots').style.display = 'flex';
+            document.getElementById('twolines').style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
