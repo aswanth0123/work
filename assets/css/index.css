@@ -8,10 +8,15 @@ body{
 .header{
     width: 100%;
     height: 100vh;
-    background-image: url('../images/fbg.png');
+    /* background-vi: url('../images/fbg.png'); */
     background-position: center;
     background-size: cover;
     position: relative;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .logo{
     position: absolute;
@@ -20,16 +25,17 @@ body{
     width: 100px;
 }
 .threedots{
-    border: 2px solid gray;
+    border: 2px solid rgb(12, 12, 12);
     position: absolute;
     right: 2%;
     top: 3%;
     padding: 12px;
     background: none;
+    border-radius: 4px;
 }
 .line{
     width: 25px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(12, 12, 12);
     margin-bottom: 3px;
 }
 .navmenu{
@@ -94,6 +100,41 @@ body{
 .bpictures img{
     object-fit: contain;
 }
+.bpictures img {
+    width: 150px; /* Adjust as needed */
+    margin: 0 20px;
+}
+
+.scroller {
+    display: flex;
+    animation: scroll 150s linear infinite;
+    width: 200%; /* Ensure enough space for duplication */
+}
+
+.scroller img {
+    width: 150px; /* Adjust as needed */
+    margin: 0 20px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translate3d(0,0,0);
+    }
+    to {
+        transform: translate3d(-100%,0,0);
+    }
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
 
 .bdetails{
     width: 50%;
@@ -151,6 +192,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .elevations h2{
     width: 50%;
@@ -161,7 +203,7 @@ body{
     color: #EC6754;
 }
 .elevations p{
-    z-index: -1;
+    /* z-index: -1; */
     text-align: center;
     width: 45%;
     color: #FFFFFF;
@@ -741,6 +783,8 @@ color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    line-height: 6px;
+
 }
 .readyde .name{
     width: 38%;
