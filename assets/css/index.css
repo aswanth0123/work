@@ -1158,7 +1158,7 @@ video {
     font-size: 14px;
   }
   .howwework {
-    height: 150vh;
+    /* height: 150vh; */
     background-image: none;
   }
   .howwework h2 {
