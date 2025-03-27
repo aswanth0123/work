@@ -168,18 +168,33 @@ video{
     overflow: hidden;
 }
 .wave_img {
-/* Adjust the cropping */
-    text-align: end;
+    position: relative;
+    height: 15vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.wave_img img {
-    width: 30%;
-    object-fit: fill;
+.image-container {
+    /* background-color: blueviolet; */
+    width: 20%;
+    height: 100%;
+     overflow: hidden; 
+    /* position: relative; */
+}
+
+.image-container img {
+    /* width: 100%; 
+    height: 100%; */
+    object-fit: contain;
+    /* object-position: right; */
+    /* position: absolute; */
+    right: 0;
 }
 
 .boyimages{
     position: relative;
-    bottom: -1.5vh;
+    bottom: -1.6vh;
     z-index: 1;
 
 }
@@ -1285,6 +1300,9 @@ color: #FFFFFF;
     }
 }
 @media (min-width:401px) and (max-width: 767px) {
+    .boyimages{
+        bottom: -0.9vh;
+    }
     .header{
         height: 30vh;
         position: relative;
@@ -1662,6 +1680,9 @@ color: #FFFFFF;
     }
 }
 @media (min-width: 401px) and (max-width: 606px) {
+    .boyimages{
+        bottom: -2vh;
+    }
     .mountains h1{
         left: 20%;
         font-size: 0.9em;
@@ -1672,6 +1693,9 @@ color: #FFFFFF;
     *{
         margin: 0;
         padding: 0;
+    }
+    .boyimages{
+        bottom: -2vh;
     }
     .header{
         width: 100vw;
@@ -1972,6 +1996,7 @@ color: #FFFFFF;
     }
   }
   @media (min-width: 767px) and (max-width: 774px) {
+ 
     
     .adtrioz{
         height: 50vh;
@@ -1981,6 +2006,9 @@ color: #FFFFFF;
     }
   }
   @media (min-width: 992px) and (max-width: 1199px) {
+    .boyimages{
+        bottom: -2.4vh;
+    }
     .header{
         height: 60vh;
         background-position: center;
@@ -2272,6 +2300,9 @@ color: #FFFFFF;
     }
 }
 @media (min-width:1200px) and (max-width:1535px) {
+    .boyimages{
+        bottom: -3.3vh;
+    }
     .branding{  
         /* height:90vh; */
     }
