@@ -204,7 +204,20 @@ video {
 }
 .boyimages img {
   width: 18vw;
+  position: relative;
+
+  animation: moveLeftRight 10s linear infinite alternate; /* Moves back and forth */
 }
+
+@keyframes moveLeftRight {
+  0% {
+      left: 0; /* Start from left */
+  }
+  100% {
+      left: 80%; /* Move to right */
+  }
+}
+
 .brands {
   padding-top: 15px;
   width: 94%;
@@ -514,9 +527,11 @@ video {
   border-radius: 15px;
 }
 .waves2 {
+
   position: absolute;
   bottom: -6%;
   width: 100%;
+  height: 130px;
 }
 .mountains h1 {
   position: absolute;
@@ -1110,7 +1125,7 @@ video {
   }
   .elevations {
     position: relative;
-    height: 20vh;
+    /* height: 20vh; */
   }
   .elevations h2 {
     width: 100%;
@@ -1544,7 +1559,7 @@ video {
     font-size: 14px;
   }
   .howwework {
-    height: 140vh;
+    /* height: 140vh; */
     background-image: none;
   }
   .howwework h2 {
@@ -1810,7 +1825,7 @@ video {
     padding: 0;
   }
   .boyimages {
-    bottom: -2vh;
+    bottom: -1.3vh;
   }
   .header {
     width: 100vw;
@@ -1880,7 +1895,7 @@ video {
   }
   .elevations {
     position: relative;
-    height: 20vh;
+    height: 28vh;
   }
   .elevations img {
     position: absolute;
@@ -2126,7 +2141,7 @@ video {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .boyimages {
-    bottom: -2.4vh;
+    /* bottom: -2vh; */
   }
   .header {
     height: 60vh;
@@ -2425,7 +2440,7 @@ video {
 }
 @media (min-width: 1200px) and (max-width: 1535px) {
   .boyimages {
-    bottom: -3.3vh;
+    bottom: -2vh;
   }
   .branding {
     /* height:90vh; */
